@@ -6,39 +6,70 @@ A production-grade Flutter application implementing a celestial personal tracker
 
 ## 📸 Screenshots
 
-<!-- Replace placeholders below with actual device captures -->
-| Home Screen | Journal Screen | Insights Screen |
-| :---: | :---: | :---: |
-| ![Home Screen](screenshots/home_screen.png)<br>*(Placeholder: Home Screen)* | ![Journal Screen](screenshots/journal_screen.png)<br>*(Placeholder: Journal Screen)* | ![Insights Screen](screenshots/insights_screen.png)<br>*(Placeholder: Insights Screen)* |
+All screenshots were captured from the running Flutter application on the iPhone 15 Plus simulator.
+
+### Home Screen
+
+![Home Screen - Top and Cosmic Dial](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.04.png)
+
+![Home Screen - Goals and Horoscope](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.11.png)
+
+![Home Screen - Numerology and Journal Preview](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.15.png)
+
+### Journal Screen
+
+![Journal Screen - Header and Month Filters](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.20.png)
+
+![Journal Screen - Filtered Entries](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.24.png)
+
+![Journal Screen - Entries and Add Action](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.29.png)
+
+### Insights Screen
+
+![Insights Screen - Period Selector and Hero](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.33.png)
+
+![Insights Screen - Daily Focus and Traits](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.39.png)
+
+![Insights Screen - Fun Facts and Numerology](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.45.png)
+
+![Insights Screen - Destiny Number 7](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.47.png)
+
+### Goals Screen
+
+![Goals Screen](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.50.png)
+
+## 🎥 Demo Video
+
+[Watch Assignment Demo Video](demo/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.26.41.mov)
 
 ---
 
 ## 📱 Features & Screens
 
 1. **Home Screen**
-   - **Header & Profile**: Personalized greeting (*"Good evening, Saniya"*), astrological traits (*"Sagittarius • Life Path 3"*), notification badge, and profile icon with interactive feedback.
+   - **Header & Profile**: Personalized greeting (_"Good evening, Saniya"_), astrological traits (_"Sagittarius • Life Path 3"_), notification badge, and profile icon with interactive feedback.
    - **Celestial Background & Dial Alignment**: Responsive dial layout calculation that clamps cleanly across mobile and tablet screens without pushing content down.
-   - **Goals Card**: *"No goals yet"* with guided intention text, cosmic mountain artwork, and an interactive *"Create your goal"* button navigating to the Goals tab.
-   - **Today's Horoscope Card**: *"Sagittarius"* with date, glowing zodiac glyph artwork, daily horoscope guidance, and *"Read more >"* prompt.
-   - **Today's Numerology Card**: *"Lucky Number 3"* with globe artwork and daily guidance.
-   - **Journal Preview Card**: Celestial notebook card with *"SANIYA'S JOURNAL"* banner; tapping navigates directly to the Journal tab.
+   - **Goals Card**: _"No goals yet"_ with guided intention text, cosmic mountain artwork, and an interactive _"Create your goal"_ button navigating to the Goals tab.
+   - **Today's Horoscope Card**: _"Sagittarius"_ with date, glowing zodiac glyph artwork, daily horoscope guidance, and _"Read more >"_ prompt.
+   - **Today's Numerology Card**: _"Lucky Number 3"_ with globe artwork and daily guidance.
+   - **Journal Preview Card**: Celestial notebook card with _"SANIYA'S JOURNAL"_ banner; tapping navigates directly to the Journal tab.
 
 2. **Journal Screen**
-   - **Notebook Header**: Saniya's journal notebook display with entry count badge (*"2 entries"*).
-   - **Month Filter Selector**: Interactive filter chips (*"ALL"*, *"AUG"*, *"SEP"*, *"OCT"*, *"NOV"*) that filter journal entries in real-time.
-   - **Journal Entry Cards**: Date badges (*Day, Month, Weekday*), entry titles, and reflection text.
+   - **Notebook Header**: Saniya's journal notebook display with entry count badge (_"2 entries"_).
+   - **Month Filter Selector**: Interactive filter chips (_"ALL"_, _"AUG"_, _"SEP"_, _"OCT"_, _"NOV"_) that filter journal entries in real-time.
+   - **Journal Entry Cards**: Date badges (_Day, Month, Weekday_), entry titles, and reflection text.
    - **Add Entry Dialog**: Interactive modal bottom sheet enabling users to enter a title and reflection, dynamically timestamping the entry with the current date/month and instantly updating the journal list.
 
 3. **Insights Screen**
-   - **Period Selector**: Interactive horizontal tabs (*"YESTERDAY"*, *"TODAY"*, *"TOMORROW"*, *"WEEK"*, *"MONTH"*), with *"TODAY"* active on initial load.
-   - **Astrological Identity Hero**: User profile (*"Gilli Gaurav Singh"*), birth chart info (*"You • Sept 23, 2003"*), dual sign badges (*Cancer Sun Sign* & *Leo Moon Sign*), and responsive zodiac lion illustration.
-   - **Astrology Section**: *"Focus of the day: Career"* badge with comprehensive daily career and astrological reading.
-   - **Favourable Traits Grid**: 2x2 grid featuring *"Favourable Direction: North"* and *"Lucky Colour: Pink"*.
+   - **Period Selector**: Interactive horizontal tabs (_"YESTERDAY"_, _"TODAY"_, _"TOMORROW"_, _"WEEK"_, _"MONTH"_), with _"TODAY"_ active on initial load.
+   - **Astrological Identity Hero**: User profile (_"Gilli Gaurav Singh"_), birth chart info (_"You • Sept 23, 2003"_), dual sign badges (_Cancer Sun Sign_ & _Leo Moon Sign_), and responsive zodiac lion illustration.
+   - **Astrology Section**: _"Focus of the day: Career"_ badge with comprehensive daily career and astrological reading.
+   - **Favourable Traits Grid**: 2x2 grid featuring _"Favourable Direction: North"_ and _"Lucky Colour: Pink"_.
    - **Fun Facts Card**: Cosmic card with Sun-ruler astrological lore and bullet points.
-   - **Numerology & Destiny Section**: Lucky Number guidance card and Destiny Number 7 (*"The Seeker"*) illustrated path.
+   - **Numerology & Destiny Section**: Lucky Number guidance card and Destiny Number 7 (_"The Seeker"_) illustrated path.
 
 4. **Goals Screen**
-   - Dedicated tab featuring *"Your journey starts here"* with target illustration, motivating copy, and *"Create Your First Goal"* action button.
+   - Dedicated tab featuring _"Your journey starts here"_ with target illustration, motivating copy, and _"Create Your First Goal"_ action button.
 
 ---
 
@@ -161,7 +192,7 @@ lib/
 3. **Journal Entry Addition**: Modal sheet inputs title and reflection, dynamically assigns current month and date, and updates the reactive entry count.
 4. **Insights Period Selection**: Segmented tabs switch timeframes with active state indicator.
 5. **Cross-Tab Deep Navigation**:
-   - Tapping *"Create your goal"* on Home navigates to the Goals tab.
+   - Tapping _"Create your goal"_ on Home navigates to the Goals tab.
    - Tapping the Journal Preview on Home navigates to the Journal tab.
 6. **Multi-Screen Responsive Layout**: Validated across mobile and tablet widths (320px, 375px, 402px, 600px, 800px) with 0 RenderFlex overflows.
 
@@ -170,37 +201,45 @@ lib/
 ## 🚀 Setup & Execution
 
 ### Prerequisites
+
 - **Flutter SDK**: `>=3.19.0` (tested on Flutter `3.27.x` / `3.47.x`)
 - **Dart SDK**: `>=3.3.0`
 
 ### Step-by-Step Instructions
 
 1. **Clone or Navigate to the Project Root**:
+
    ```bash
    cd Test_Nisha
    ```
 
 2. **Install Dependencies**:
+
    ```bash
    flutter pub get
    ```
 
 3. **Verify Code Formatting**:
+
    ```bash
    dart format --output=none --set-exit-if-changed lib test
    ```
 
 4. **Run Static Code Analysis**:
+
    ```bash
    flutter analyze
    ```
-   *(Expected result: `No issues found!`)*
+
+   _(Expected result: `No issues found!`)_
 
 5. **Run Automated Test Suite**:
+
    ```bash
    flutter test
    ```
-   *(Expected result: `All tests passed!`)*
+
+   _(Expected result: `All tests passed!`)_
 
 6. **Run the Application**:
    - **Chrome / Web**:

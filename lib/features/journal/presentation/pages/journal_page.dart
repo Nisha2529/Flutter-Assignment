@@ -210,7 +210,7 @@ class _JournalPageState extends State<JournalPage>
                           },
                         ),
 
-                      SizedBox(height: 50.h),
+                      SizedBox(height: 100.h),
                     ],
                   ),
                 ),
