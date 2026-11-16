@@ -38,9 +38,15 @@ All screenshots were captured from the running Flutter application on the iPhone
 
 ![Goals Screen](screenshots/Simulator%20Screenshot%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.24.50.png)
 
-## 🎥 Demo Video
+## 🎥 Demo Videos
 
-[Watch Assignment Demo Video](demo/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.26.41.mov)
+### Initial Implementation Demo
+
+[Watch Initial Implementation Demo](demo/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2012.26.41.mov)
+
+### Updated Implementation Demo
+
+[Watch Updated Implementation Demo](demo/Simulator%20Screen%20Recording%20-%20iPhone%2015%20Plus%20-%202026-11-16%20at%2019.23.28.mov)
 
 ---
 
