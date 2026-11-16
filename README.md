@@ -48,7 +48,7 @@ All screenshots were captured from the running Flutter application on the iPhone
 
 1. **Home Screen**
    - **Header & Profile**: Personalized greeting (_"Good evening, Saniya"_), astrological traits (_"Sagittarius • Life Path 3"_), notification badge, and profile icon with interactive feedback.
-   - **Celestial Background & Dial Alignment**: Responsive dial layout calculation that clamps cleanly across mobile and tablet screens without pushing content down.
+   - **Celestial Background & Cosmic Dial**: Dynamic 6-ring concentric dial (Yrs, Mm, Days, Hrs, Mins, Sec) calculated live according to the user's birthdate using custom Agdasima typography and exact Figma color palette (#FEFBEC, #FEF2C2, #DFD4AA, #659BA5, #84BAC4, #A9D1D9).
    - **Goals Card**: _"No goals yet"_ with guided intention text, cosmic mountain artwork, and an interactive _"Create your goal"_ button navigating to the Goals tab.
    - **Today's Horoscope Card**: _"Sagittarius"_ with date, glowing zodiac glyph artwork, daily horoscope guidance, and _"Read more >"_ prompt.
    - **Today's Numerology Card**: _"Lucky Number 3"_ with globe artwork and daily guidance.

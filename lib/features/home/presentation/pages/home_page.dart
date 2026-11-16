@@ -12,6 +12,7 @@ import '../../../../core/widgets/numerology_card_widget.dart';
 import '../../../../core/widgets/responsive_layout.dart';
 import '../../../navigation/cubit/navigation_cubit.dart';
 import '../bloc/home_cubit.dart';
+import '../widgets/cosmic_dial_widget.dart';
 import '../widgets/goals_card_widget.dart';
 import '../widgets/horoscope_card_widget.dart';
 
@@ -76,14 +77,26 @@ class _HomePageState extends State<HomePage>
         final data = (state as HomeLoaded).data;
 
         return AssetBackground(
-          assetCandidates: const ['assets/images/home_bg.png'],
+          assetCandidates: const ['assets/images/home_screenBG.png'],
           fit: BoxFit.fitWidth,
           alignment: Alignment.topCenter,
           fallbackDecoration: const BoxDecoration(
             color: AppColors.scaffoldDark,
           ),
-          child: Scaffold(
-            backgroundColor: Colors.transparent,
+          child: Stack(
+            children: [
+              Positioned(
+                top: 0,
+                left: 0,
+                right: 0,
+                height: dialBottomY + 250.h,
+                child: CosmicDialWidget(
+                  birthDate: DateTime(2003, 11, 25),
+                  equatorY: dialBottomY - 14.h,
+                ),
+              ),
+              Scaffold(
+                backgroundColor: Colors.transparent,
             appBar: AppBar(
               backgroundColor: Colors.transparent,
               elevation: 0,
@@ -216,7 +229,9 @@ class _HomePageState extends State<HomePage>
               ),
             ),
           ),
-        );
+        ],
+      ),
+    );
       },
     );
   }

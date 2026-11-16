@@ -93,4 +93,3 @@ class NumerologyCardWidget extends StatelessWidget {
     );
   }
 }
-
